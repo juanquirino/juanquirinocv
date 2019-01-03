@@ -2,7 +2,7 @@
 Template Name: Online CV
 Description: HTML5 / CSS3 One Page
 Version: 1.0
-Author: themehippo.com
+Author: Juan Carlos Quirino
 */
 
 /*------------------------------------------------------------------
@@ -42,7 +42,6 @@ h1 {
 h2 {
     font-size   : 18px;
     line-height : 1.8em;
-    font-weight : 700;
     }
 
 h3 {
@@ -175,7 +174,7 @@ button:focus,
     }
 
 .left-col-block {
-    width      : 50%;
+    width      : 40%;
     text-align : center;
     overflow   : hidden;
     position   : fixed;
@@ -183,7 +182,7 @@ button:focus,
     }
 
 .right-col-block {
-    width      : 50%;
+    width      : 60%;
     position   : absolute;
     right      : 0;
     box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
@@ -239,9 +238,10 @@ button:focus,
     }
 
 .section-title h2 {
-    margin-bottom : 5px;
-    color         : #bebece;
-    }
+   	margin-bottom: 5px;
+    color: #757575;
+    text-transform: uppercase;
+}
 
 /*-----------------------------
  * NAVIGATION & HEADER STYLE
@@ -264,7 +264,7 @@ button:focus,
     height              : 100%;
     background-image    : url(../img/img-profile.jpg);
     background-size     : cover;
-    background-position : center top;
+    background-position : center center;
     }
 
 .header .profile-img:before {
